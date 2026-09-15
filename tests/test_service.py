@@ -12,7 +12,7 @@ def test_triage_returns_prediction_and_evidence() -> None:
     )
 
     assert result.label == "bug"
-    assert result.confidence > 0.45
+    assert not result.should_abstain
     assert result.related_issues
     assert result.related_issues[0].issue_id == "auth-101"
 

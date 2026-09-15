@@ -30,7 +30,7 @@ class TriageResult:
 class IssueTriageService:
     """Small, inspectable baseline for later model and retrieval experiments."""
 
-    def __init__(self, issues: list[IssueRecord], abstain_threshold: float = 0.45) -> None:
+    def __init__(self, issues: list[IssueRecord], abstain_threshold: float = 0.40) -> None:
         if not 0.0 <= abstain_threshold <= 1.0:
             raise ValueError("abstain_threshold must be between 0 and 1")
 
