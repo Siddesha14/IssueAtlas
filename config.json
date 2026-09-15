@@ -1,8 +1,0 @@
-{
-  "HONEY_KEY_XYZ123": "8b9b3d0d-c91b-4f3a-a256-85b2ef623e5d",
-  "API_SECRET": "4f3a-85b2-ef62-3e5d-c91b-4f3a",
-  "DATABASE_URI": "postgres://user:pass@localhost/dbname",
-  "DEBUG_MODE": true,
-  "HOST": "0.0.0.0",
-  "PORT": "8080"
-}
